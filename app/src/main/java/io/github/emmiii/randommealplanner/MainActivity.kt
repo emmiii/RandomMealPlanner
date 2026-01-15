@@ -66,7 +66,6 @@ class MainActivity : AppCompatActivity() {
             }
             adapter.updateItems(randomizedDays)
         }
-
     }
 
     private fun loadMealsFromJson(): List<String> {
